@@ -21,40 +21,25 @@ pre: " <b> 1.1. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members and the internship environments <br> - Learn about internship requirements, responsibilities, and worklog reporting.                                                                                                   | 14/9/2026 | 20/09/2026      |
-| 3   | - Study Cloud Computing fundamentals.<br>- Understand IaaS, PaaS, and SaaS.<br>- Compare cloud computing with traditional IT infrastructure.                                              | 21/09/2026 | 27/09/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Learn about AWS and its main service categories.<br>- Explore Compute, Storage, Networking, Database, and Security services. | 28/09/2026 | 04/10/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Study AWS Global Infrastructure.<br>- Learn about AWS Regions, Availability Zones, and Edge Locations.<br>- Explore the AWS Management Console.   <br>                            | 05/10/2025 | 11/10/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Get acquainted with FCAJ members and the internship environments <br> - Learn about internship requirements, responsibilities, and worklog reporting.                                                                                                   | 14/9/2026 | 14/09/2026      |
+| 3   | - Study Cloud Computing fundamentals.<br>- Understand IaaS, PaaS, and SaaS.<br>- Compare cloud computing with traditional IT infrastructure.                                              | 15/09/2026 | 16/09/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Learn about AWS and its main service categories.<br>- Explore Compute, Storage, Networking, Database, and Security services. | 17/09/2026 | 17/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Study AWS Global Infrastructure.<br>- Learn about AWS Regions, Availability Zones, and Edge Locations.<br>- Explore the AWS Management Console.   <br>                            | 18/09/2025 | 19/09/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | -- Study the AWS Shared Responsibility Model.<br>- Review basic AWS security concepts.<br>- Summarize the knowledge acquired during the week.                                                                                     | 19/09/2026 | 20/09/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
-### Week 1 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Gained a foundational understanding of Cloud Computing and its advantages.
+* Learned the differences between:
+  * Infrastructure as a Service (IaaS).
+  * Platform as a Service (PaaS).
+  * Software as a Service (SaaS).
+* Became familiar with AWS and its major service categories:
+  * Compute.
+  * Storage.
+  * Networking.
+  * Database.
+  * Security.
+* Understood the structure of AWS Global Infrastructure, including Regions, Availability Zones, and Edge Locations.
+* Became familiar with navigating the AWS Management Console.
+* Understood the AWS Shared Responsibility Model and the basic security responsibilities of AWS customers.
+* Improved independent learning and technical documentation reading skills.
