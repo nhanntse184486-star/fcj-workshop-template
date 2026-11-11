@@ -1,57 +1,53 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-10-26
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand High Availability, Fault Tolerance, and Scalability in AWS.
+* Learn about Elastic Load Balancing (ELB) and EC2 Auto Scaling.
+* Study Amazon CloudWatch for monitoring AWS resources and applications.
+* Explore Amazon Route 53 and Amazon CloudFront.
+* Understand Serverless Computing and event-driven architecture.
+* Study AWS Lambda, including functions, triggers, execution roles, and runtime environments.
+* Explore Amazon API Gateway and its integration with AWS Lambda.
+* Understand the importance of monitoring, reliability, security, and performance optimization in cloud applications.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| 2   |  - Study High Availability, Scalability, and Fault Tolerance.<br>- Understand the importance of multiple Availability Zones.<br>- Learn about Elastic Load Balancing and its main features.<br>- Explore Application Load Balancer and Network Load Balancer.<br>- Study EC2 Auto Scaling Groups and scaling policies.<br>- Analyze a highly available web application architecture using Load Balancing and Auto Scaling. | 26/10/2026 | 26/10/2026 | <https://cloudjourney.awsstudygroup.com/1-explore/> |
+| 3   | - Study Amazon CloudWatch and its role in cloud monitoring.<br>- Learn about CloudWatch Metrics, Logs, Dashboards, and Alarms.<br>- Explore monitoring metrics such as CPU Utilization, Network Traffic, and Request Count.<br>- Understand how CloudWatch supports troubleshooting and operational monitoring.<br>- Study the relationship between CloudWatch Alarms and Auto Scaling.<br>- Review monitoring strategies for EC2-based applications. | 27/10/2026 | 27/10/2026 | <https://cloudjourney.awsstudygroup.com/3-optimize/> |
+- Study Amazon Route 53 and DNS management.<br>- Learn about DNS Records and domain name resolution.<br>- Explore Route 53 routing policies and health checks.<br>- Study Amazon CloudFront and Content Delivery Networks (CDNs).<br>- Understand caching and content delivery through Edge Locations.<br>- Analyze how Route 53, CloudFront, and S3 can support a web application. | 28/10/2026 | 28/10/2026 | <https://cloudjourney.awsstudygroup.com/1-explore/> |
+ - Study Serverless Computing and event-driven architecture.<br>- Learn about AWS Lambda and its execution model.<br>- Explore Lambda Functions, Runtime Environments, and Event Triggers.<br>- Understand Lambda Execution Roles and IAM permissions.<br>- Study the differences between EC2-based and Serverless applications.<br>- Review common Lambda use cases involving S3 and other AWS services. | 29/10/2026 | 29/10/2026 | <https://cloudjourney.awsstudygroup.com/4-modernize/> |
+ - Study Amazon API Gateway and REST API fundamentals.<br>- Learn how API Gateway integrates with AWS Lambda.<br>- Explore request and response handling in serverless applications.<br>- Study how Lambda interacts with Amazon DynamoDB and S3.<br>- Review logging and error handling for serverless functions.<br>- Analyze a sample Serverless architecture using API Gateway, Lambda, and DynamoDB.<br>- Summarize the knowledge acquired during the week. | 30/10/2026 | 30/10/2026 | <https://cloudjourney.awsstudygroup.com/4-modernize/> |
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Developed an understanding of High Availability, Fault Tolerance, and Scalability.
+* Learned how Elastic Load Balancing distributes incoming traffic across application resources.
+* Studied EC2 Auto Scaling and its role in automatically adjusting computing capacity.
+* Understood the importance of deploying applications across multiple Availability Zones.
+* Explored Amazon CloudWatch and its major components:
+  * CloudWatch Metrics.
+  * CloudWatch Logs.
+  * CloudWatch Dashboards.
+  * CloudWatch Alarms.
+* Learned how CloudWatch supports resource monitoring, troubleshooting, and performance analysis.
+* Studied Amazon Route 53 and its role in DNS management.
+* Understood how Amazon CloudFront improves content delivery through a globally distributed network.
+* Developed foundational knowledge of Serverless Computing and event-driven application design.
+* Studied AWS Lambda concepts, including:
+  * Lambda Functions.
+  * Execution Roles.
+  * Runtime Environments.
+  * Event Triggers.
+* Learned how Amazon API Gateway exposes application APIs and integrates with Lambda functions.
+* Explored a Serverless application architecture using API Gateway, Lambda, and DynamoDB.
+* Improved the ability to compare traditional EC2-based architectures with Serverless solutions.
+* Strengthened knowledge of cloud application monitoring, scalability, and reliability.
