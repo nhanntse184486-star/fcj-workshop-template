@@ -10,19 +10,19 @@ pre: " <b> 1.1. </b> "
 
 ### Week 1 Objectives:
 
-* Get familiar with the First Cloud AI Journey (FCAJ) internship program.
+* Get acquainted with the First Cloud AI Journey (FCAJ) internship program.
 * Understand the fundamentals of Cloud Computing.
-* Explore the AWS global infrastructure.
-* Learn about the main categories of AWS services.
-* Become familiar with the AWS Management Console.
-* Understand the AWS Shared Responsibility Model.
+* Learn about Amazon Web Services (AWS) and its main service categories.
+* Understand the AWS Global Infrastructure.
+* Explore the AWS Management Console.
+* Study the AWS Shared Responsibility Model
 
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members and the internship environments <br> - Review internship regulations, expectations, and reporting requirements.                                                                                                   | 11/11/2026 | 11/11/2026      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Get acquainted with FCAJ members and the internship environments <br> - Learn about internship requirements, responsibilities, and worklog reporting.                                                                                                   | 14/9/2026 | 20/09/2026      |
+| 3   | - Study Cloud Computing fundamentals. <br>&emsp; Understand IaaS, PaaS, and SaaS <br>&emsp;Compare cloud computing with traditional IT infrastructure <br>&emsp; + ... <br>                                              | 21/11/2026 | 28/11/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
