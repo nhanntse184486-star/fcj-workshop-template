@@ -1,6 +1,6 @@
 ---
 title: "Week 1 Worklog"
-date: 2024-01-01
+date: 2026-11-11
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
@@ -12,8 +12,13 @@ pre: " <b> 1.1. </b> "
 
 ### Week 1 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Get familiar with the First Cloud AI Journey (FCAJ) internship program.
+* Understand the fundamentals of Cloud Computing.
+* Explore the AWS global infrastructure.
+* Learn about the main categories of AWS services.
+* Become familiar with the AWS Management Console.
+* Understand the AWS Shared Responsibility Model.
+
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
