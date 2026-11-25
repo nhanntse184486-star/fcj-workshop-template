@@ -1,4 +1,4 @@
----
+﻿---
 title: "Các bài viết Blog"
 weight: 3
 chapter: true
@@ -16,3 +16,4 @@ Bài viết giới thiệu Amazon S3, dịch vụ lưu trữ đối tượng đ�
 ### [Blog 3 - Amazon EventBridge Scheduler: Một dịch vụ nhỏ nhưng có võ khi xây dựng Project trên AWS](3.3-Blog3/)
 
 Bài viết giới thiệu Amazon EventBridge Scheduler, một dịch vụ lập lịch Serverless cho phép ứng dụng tự động kích hoạt các dịch vụ AWS tại thời điểm xác định hoặc theo chu kỳ. Nội dung trình bày các kiểu lập lịch One-time, Rate-based và Cron-based, cùng những tính năng hữu ích như Retry Policy, Dead-letter Queue (DLQ), Flexible Time Window và hỗ trợ múi giờ. Bài viết cũng hướng dẫn cách sử dụng EventBridge Scheduler để tự động gọi AWS Lambda mỗi 30 phút, giúp giảm công việc quản lý máy chủ và đơn giản hóa quá trình tự động hóa trong các project trên AWS.
+

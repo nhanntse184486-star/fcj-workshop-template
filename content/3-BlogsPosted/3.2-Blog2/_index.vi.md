@@ -1,4 +1,4 @@
-
+﻿
 ---
 title: "Blog 2"
 date: 2026-11-24
@@ -100,7 +100,7 @@ Các Storage Classes của Amazon S3 có thể được phân nhóm dựa trên 
 - **Archive (Lưu trữ dài hạn):** Dành cho dữ liệu ít khi truy cập và có thể chấp nhận thời gian khôi phục lâu hơn.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/NguyenMinhPhuong_Workshop/images/s3-storage-hierarchy.png" alt="Phân cấp lưu trữ Amazon S3" style="width: 90%; max-width: 850px; border-radius: 8px;">
+  <img src="/fcj-workshop-template/images/s3-storage-hierarchy.png" alt="Phân cấp lưu trữ Amazon S3" style="width: 90%; max-width: 850px; border-radius: 8px;">
   <p><em>Hình 1 - Phân cấp các lớp lưu trữ Amazon S3 dựa trên nhu cầu truy cập dữ liệu.</em></p>
 </div>
 
@@ -120,7 +120,7 @@ Amazon S3 cung cấp nhiều lớp lưu trữ khác nhau để người dùng l�
 | S3 Express One Zone | Lưu trữ hiệu năng cao trong một Availability Zone | Ứng dụng yêu cầu độ trễ truy cập dữ liệu rất thấp |
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/NguyenMinhPhuong_Workshop/images/s3-storage-classes.png" alt="Tổng quan 8 lớp lưu trữ Amazon S3" style="width: 90%; max-width: 850px; border-radius: 8px;">
+  <img src="/fcj-workshop-template/images/s3-storage-classes.png" alt="Tổng quan 8 lớp lưu trữ Amazon S3" style="width: 90%; max-width: 850px; border-radius: 8px;">
   <p><em>Hình 2 - Tổng quan tám lớp lưu trữ Amazon S3 và các trường hợp sử dụng phổ biến.</em></p>
 </div>
 
@@ -305,7 +305,7 @@ my-ai-dataset/
 ```
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/NguyenMinhPhuong_Workshop/images/aws-data-ml-architecture.png" alt="Kiến trúc Data và Machine Learning trên AWS Cloud" style="width: 90%; max-width: 850px; border-radius: 8px;">
+  <img src="/fcj-workshop-template/images/aws-data-ml-architecture.png" alt="Kiến trúc Data và Machine Learning trên AWS Cloud" style="width: 90%; max-width: 850px; border-radius: 8px;">
   <p><em>Hình 3 - Kiến trúc Data & Machine Learning trên AWS Cloud sử dụng Amazon S3 để lưu trữ và quản lý dữ liệu.</em></p>
 </div>
 
@@ -405,3 +405,4 @@ Tôi rất mong được trao đổi ý kiến và học hỏi thêm từ cộng
 
 7. AWS Documentation – Amazon SageMaker
    https://docs.aws.amazon.com/sagemaker/
+

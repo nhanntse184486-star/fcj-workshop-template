@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 1"
 date: 2026-11-23
 weight: 1
@@ -156,7 +156,7 @@ Nhờ đó, tổ chức có thể phát hiện lỗ hổng sớm hơn, giảm th
 Hình ảnh dưới đây minh họa kiến trúc AWS CI/CD Pipeline tích hợp các công cụ và dịch vụ DevSecOps nhằm thực hiện kiểm tra bảo mật, giám sát và kiểm soát trước khi triển khai ứng dụng lên môi trường Production.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/NguyenMinhPhuong_Workshop/images/aws-devsecops-cicd-pipeline.jpg" alt="AWS CI/CD Pipeline tích hợp DevSecOps" style="width: 90%; max-width: 850px; border-radius: 8px;">
+  <img src="/fcj-workshop-template/images/aws-devsecops-cicd-pipeline.jpg" alt="AWS CI/CD Pipeline tích hợp DevSecOps" style="width: 90%; max-width: 850px; border-radius: 8px;">
   <p><em>Hình 1 - AWS CI/CD Pipeline tích hợp DevSecOps để kiểm tra bảo mật trước khi triển khai Production</em></p>
 </div>
 
@@ -169,3 +169,4 @@ Hình ảnh dưới đây minh họa kiến trúc AWS CI/CD Pipeline tích hợp
 5. AWS Config: https://docs.aws.amazon.com/config/
 6. AWS CloudTrail: https://docs.aws.amazon.com/cloudtrail/
 7. Amazon ECS: https://docs.aws.amazon.com/ecs/
+

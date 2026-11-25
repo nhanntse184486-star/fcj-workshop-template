@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog 3"
 date: 2026-11-24
 weight: 3
@@ -34,4 +34,5 @@ Một số dịch vụ có thể được kích hoạt thông qua EventBridge Sc
 Với Universal Target, EventBridge Scheduler có thể gọi hơn 6.000 API operations thuộc hơn 270 dịch vụ AWS. Điều này giúp Scheduler tích hợp linh hoạt với nhiều thành phần trong kiến trúc Cloud.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/NguyenMinhPhuong_Workshop/images/eventbridge-scheduler-architecture.png" alt="Amazon EventBridge Scheduler architecture" style="width: 90%; max-width: 850
+  <img src="/fcj-workshop-template/images/eventbridge-scheduler-architecture.png" alt="Amazon EventBridge Scheduler architecture" style="width: 90%; max-width: 850
+
