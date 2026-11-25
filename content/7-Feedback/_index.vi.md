@@ -4,59 +4,58 @@ date: 2026-11-25
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
+draft: false
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
 
 ### Đánh giá chung
 
-**1. Môi trường làm việc**  
-Môi trường học tập và thực tập đóng vai trò quan trọng trong việc giúp sinh viên làm quen với cách thức làm việc thực tế trong ngành công nghệ thông tin. Chương trình AWS tạo cơ hội để tôi tiếp cận tài liệu chuyên môn, tìm hiểu các dịch vụ điện toán đám mây và nâng cao khả năng học tập độc lập.
+**1. Môi trường làm việc**
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Sự hướng dẫn của mentor và sự hỗ trợ từ team admin có vai trò quan trọng đối với quá trình học tập, đặc biệt khi tiếp cận những công nghệ mới. Tôi đánh giá cao phương pháp học tập khuyến khích thực tập sinh chủ động nghiên cứu, đặt câu hỏi và tìm cách giải quyết những vấn đề gặp phải.
+Tôi đánh giá cao mô hình học tập kết hợp tự nghiên cứu, thực hành và xây dựng dự án của chương trình First Cloud AI Journey. Cách tiếp cận này giúp thực tập sinh rèn luyện tính chủ động, thay vì chỉ tiếp nhận kiến thức lý thuyết. Tôi mong chương trình tiếp tục duy trì các hoạt động học tập tại văn phòng và tạo thêm cơ hội trao đổi kỹ thuật giữa các thực tập sinh.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Kiến thức về AWS và Cloud Computing có nhiều ứng dụng trong lĩnh vực công nghệ thông tin, đặc biệt đối với việc triển khai hệ thống, quản lý tài nguyên và phát triển ứng dụng. Việc tìm hiểu các nền tảng điện toán đám mây là cơ hội để tôi mở rộng kiến thức ngoài những nội dung được học trên giảng đường.
+**2. Sự hỗ trợ của mentor và team admin**
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Chương trình thực tập mang đến cơ hội tìm hiểu hệ sinh thái AWS và các nguyên tắc cơ bản trong việc xây dựng hệ thống trên nền tảng đám mây.
-Những kỹ năng tôi mong muốn phát triển bao gồm:
-- Hiểu kiến trúc và các dịch vụ AWS.
-- Nâng cao khả năng đọc hiểu tài liệu kỹ thuật.
-- Rèn luyện kỹ năng thực hành và xử lý lỗi.
-- Phát triển tư duy phân tích và giải quyết vấn đề.
-- Cải thiện khả năng quản lý thời gian và tự học.
+Tài liệu hướng dẫn, quy trình thực tập và các tiêu chí báo cáo là những nguồn thông tin hữu ích để định hướng quá trình học tập. Tôi đánh giá cao phương pháp khuyến khích thực tập sinh tự nghiên cứu trước khi trao đổi vấn đề kỹ thuật. Việc bổ sung các buổi review kiến trúc và giải đáp theo từng giai đoạn dự án sẽ giúp sinh viên nhận biết sớm những điểm cần cải thiện.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Tinh thần hợp tác và chia sẻ kiến thức là những yếu tố quan trọng trong môi trường làm việc chuyên nghiệp. Thông qua chương trình thực tập, tôi mong muốn nâng cao khả năng giao tiếp, trao đổi kiến thức và phối hợp với các thành viên khác để giải quyết những vấn đề trong học tập và công việc.
+**3. Sự phù hợp giữa công việc và chuyên ngành học**
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Việc cung cấp tài liệu, công cụ học tập và cơ hội trao đổi với những người có kinh nghiệm là những yếu tố quan trọng giúp thực tập sinh phát triển kiến thức chuyên môn. Tôi mong muốn chương trình tiếp tục tạo điều kiện để thực tập sinh tiếp cận các tài nguyên cần thiết và có thêm cơ hội thực hành.
+Là sinh viên chuyên ngành Trí tuệ nhân tạo tại Đại học FPT, tôi nhận thấy kiến thức Cloud Computing có vai trò thiết thực trong việc đưa các ứng dụng AI vào môi trường sử dụng thực tế. Dự án Driver Drowsiness & Distraction Detection giúp tôi kết hợp Computer Vision với kiến trúc AWS serverless, từ xử lý tại Edge đến lưu trữ sự kiện, xác thực và dashboard. Qua đó, tôi có cái nhìn rộng hơn về toàn bộ vòng đời của một sản phẩm công nghệ.
 
+**4. Cơ hội học hỏi và phát triển kỹ năng**
+
+Chương trình tạo cơ hội để tôi tìm hiểu hệ sinh thái AWS, thực hành thiết kế kiến trúc và phát triển khả năng đọc tài liệu chuyên môn. Việc xây dựng website báo cáo song ngữ bằng Hugo, Git và GitHub Pages cũng giúp tôi rèn luyện kỹ năng quản lý phiên bản và trình bày tài liệu kỹ thuật. Ba bài blog kỹ thuật của nhóm là cơ hội để củng cố kiến thức về DevSecOps, Amazon S3 và EventBridge Scheduler.
+
+**5. Văn hóa và tinh thần đồng đội**
+
+Tôi cho rằng tinh thần chia sẻ kiến thức là một yếu tố quan trọng đối với cộng đồng FCAJ. Việc thực hiện các bài blog cùng nhóm giúp các thành viên có cơ hội tiếp cận nhiều chủ đề và hỗ trợ nhau trong quá trình tổng hợp kiến thức. Tôi mong có thêm những hoạt động trao đổi giữa các nhóm để thực tập sinh học hỏi cách tiếp cận và giải quyết bài toán của nhau.
+
+**6. Chính sách và điều kiện học tập dành cho thực tập sinh**
+
+Tôi đánh giá cao việc chương trình cung cấp lộ trình học tập, tài liệu kỹ thuật và quy định hướng dẫn thực tập. Đối với sinh viên mới tiếp cận AWS, hướng dẫn quản lý ngân sách, sử dụng tài nguyên hợp lý và dọn dẹp tài nguyên sau thực hành có ý nghĩa đặc biệt quan trọng. Tôi mong chương trình tiếp tục cải thiện các tài liệu hướng dẫn để sinh viên dễ dàng theo dõi tiến độ và chuẩn bị hồ sơ hoàn thành thực tập.
 
 ### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?
-   Điều tôi quan tâm và đánh giá cao ở chương trình là cơ hội tiếp cận các kiến thức và công nghệ liên quan đến AWS. Đặc biệt, việc kết hợp giữa nghiên cứu lý thuyết và thực hành có thể giúp thực tập sinh hiểu rõ hơn về cách áp dụng kiến thức vào những bài toán thực tế.  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?
-  Tôi đề xuất chương trình có thể tăng cường một số hoạt động nhằm nâng cao trải nghiệm học tập:
-    - Tổ chức thêm các buổi chia sẻ kiến thức chuyên môn.
-    - Cung cấp thêm các bài thực hành theo tình huống thực tế.
-    - Tăng cơ hội trao đổi trực tiếp giữa thực tập sinh và mentor.
-    - Bổ sung những buổi định hướng nghề nghiệp trong lĩnh vực Cloud Computing.
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?
-  Tôi cho rằng chương trình thực tập AWS là một lựa chọn đáng cân nhắc đối với những sinh viên quan tâm đến Cloud Computing. Chương trình có thể giúp sinh viên mở rộng kiến thức về công nghệ đám mây, phát triển khả năng tự học và chuẩn bị tốt hơn cho công việc trong tương lai.
 
+**Điều hài lòng nhất trong thời gian thực tập?**
 
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  Tôi có một số đề xuất nhằm nâng cao hiệu quả học tập trong chương trình:
-    + Thứ nhất, tăng cường thực hành: Các bài lab nên có mục tiêu rõ ràng và gắn với những tình huống thực tế.
-    + Thứ hai, chia sẻ kinh nghiệm chuyên môn: Những buổi trao đổi với mentor hoặc các chuyên gia có thể giúp thực tập sinh hiểu rõ hơn về cách ứng dụng AWS trong doanh nghiệp.
-    + Thứ ba, định hướng phát triển: Có thể bổ sung những buổi tư vấn về kỹ năng chuyên môn và lộ trình nghề nghiệp.
-    + Thứ tư, khuyến khích xây dựng dự án: Tạo điều kiện để thực tập sinh áp dụng kiến thức đã học vào một sản phẩm hoặc hệ thống hoàn chỉnh.
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-    Tôi thực sự muốn tiếp tục chương trình ở AWS, vì tôi có thể học hỏi được nhiều kiến thức thực tiễn so với ở trường những thứ giúp tôi có được kinh nghiệm và rèn luyện những kĩ năng thực tế phù hợp với tiêu chí của những công ty khi tôi tốt nghiệp tại trường.
-- Góp ý khác (tự do chia sẻ):
+Điều tôi đánh giá cao nhất là cơ hội chuyển từ kiến thức lý thuyết sang xây dựng một hệ thống kết hợp AI và AWS Cloud. Thông qua dự án cá nhân, tôi hiểu rõ hơn rằng giá trị của một ứng dụng AI không chỉ nằm ở thuật toán nhận diện, mà còn ở khả năng tích hợp, bảo mật, lưu trữ và cung cấp thông tin cho người sử dụng.
+
+**Chương trình nên cải thiện điều gì cho các thực tập sinh sau?**
+
+Tôi đề xuất bổ sung các buổi review kiến trúc theo từng mốc dự án, bài thực hành xử lý sự cố thực tế và hướng dẫn chi tiết về kiểm thử, dự toán chi phí và bảo mật. Một checklist thống nhất cho từng giai đoạn báo cáo cũng sẽ giúp thực tập sinh dễ dàng theo dõi các yêu cầu cần hoàn thành.
+
+**Bạn có giới thiệu chương trình cho bạn bè không? Vì sao?**
+
+Có. Tôi sẽ giới thiệu FCAJ cho những sinh viên quan tâm đến AI, phát triển phần mềm và Cloud Computing vì chương trình mang đến cơ hội kết nối kiến thức chuyên ngành với việc xây dựng và triển khai hệ thống trên AWS, đồng thời khuyến khích khả năng tự học.
+
+### Đề xuất và mong muốn
+
+- Tổ chức thêm các buổi chia sẻ chuyên sâu về AI trên AWS, kiến trúc serverless, bảo mật và tối ưu chi phí.
+- Bổ sung các buổi review dự án và demo giữa các nhóm để tăng cơ hội học hỏi lẫn nhau.
+- Cung cấp checklist báo cáo song ngữ và hướng dẫn GitHub Pages rõ ràng ngay từ đầu chương trình.
+- Tăng cường định hướng nghề nghiệp, kỹ năng kỹ thuật và lộ trình chứng chỉ AWS phù hợp cho sinh viên.
+
+Trong tương lai, tôi mong muốn tiếp tục học tập trong hệ sinh thái AWS, nâng cao năng lực AI và Cloud, đồng thời tham gia các hoạt động chia sẻ kiến thức phù hợp với định hướng nghề nghiệp của mình.
+
+### Lời cảm ơn
+
+Tôi xin chân thành cảm ơn đội ngũ First Cloud AI Journey, các mentor, team admin và cộng đồng thực tập sinh đã xây dựng một chương trình học tập có giá trị. Những kiến thức và kinh nghiệm tích lũy trong 10 tuần là nền tảng để tôi tiếp tục hoàn thiện bản thân và phát triển các ứng dụng công nghệ trong tương lai.
