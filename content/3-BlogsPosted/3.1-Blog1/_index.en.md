@@ -1,31 +1,67 @@
 ---
 title: "Blog 1"
-date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+## CI/CD on AWS: Integrating DevSecOps Before Production Deployment
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### 1. Problem and objective
 
-Key points to know:
+Release speed matters little if new versions introduce security weaknesses. DevSecOps embeds risk checks into development so that problems can be addressed at the stage where they arise rather than only after deployment.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+### 2. Designing an AWS pipeline
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+Reference flow: `Git → CodePipeline → CodeBuild → Staging → Security tests → Manual approval → Production`.
 
-...Image...
+| Component | Responsibility |
+|---|---|
+| AWS CodePipeline | Orchestrate release stages |
+| AWS CodeBuild | Build, unit testing and scanner execution |
+| Amazon S3 | Store pipeline artifacts |
+| AWS CodeDeploy | Coordinate deployment on compatible platforms |
+| Amazon ECS | Run container workloads in the reference architecture |
+| Amazon CloudWatch | Monitor logs and execution results |
 
-...Link...
+### 3. Security checks
 
-...Guide...
+| Method | Timing and purpose |
+|---|---|
+| SCA | Inspect dependencies for known vulnerabilities |
+| SAST | Analyze source code without running the application |
+| DAST | Test a running application in an authorized staging environment |
+| IAST | Analyze an instrumented application during execution |
+
+Define release-blocking criteria, such as unresolved critical findings. Retain scan reports for review. Scanners require separate configuration; CodePipeline does not perform every security test by itself.
+
+### 4. Reference implementation workflow
+
+1. Connect the Git repository and configure the release branch.
+2. Create a build project and run unit tests, SCA and SAST. Fail the build when security policy is violated.
+3. Package the artifact and deploy the built revision to staging.
+4. Run DAST and IAST in a suitable test environment and collect findings.
+5. Add a manual approval gate before production. Deploy the tested artifact after approval.
+6. Monitor post-release errors and prepare a rollback to a stable revision.
+
+### 5. Monitoring, permissions and risk control
+
+Use separate least-privilege IAM roles for pipeline stages and never store access keys in Git. Parameter Store or Secrets Manager can protect sensitive configuration. CloudTrail supports API activity auditing, AWS Config tracks resource configurations, and Security Hub consolidates findings from integrated sources.
+
+Suggested validation cases include vulnerable dependencies, failed builds, unauthorized approvals and faulty staging releases. A pipeline should block unacceptable revisions instead of deploying them.
+
+### 6. Connection to the internship project
+
+For Driver Drowsiness & Distraction Detection, pre-release checks can be applied to Lambda code, the dashboard frontend and Python dependencies at the edge. This reduces the risk of committing secrets or releasing vulnerable dependencies. This is a potential application of the principles, not a claim that the project uses CodePipeline or ECS.
+
+### 7. Conclusion
+
+DevSecOps promotes accountable release workflows by automating repeatable checks, defining acceptance conditions and keeping deployments traceable.
+
+### References
+
+- [AWS CodePipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html)
+- [Manual approval](https://docs.aws.amazon.com/codepipeline/latest/userguide/approvals.html)
+- [AWS CodeBuild](https://docs.aws.amazon.com/codebuild/)
+- [AWS Security Hub](https://docs.aws.amazon.com/securityhub/)
+- [AWS CloudTrail](https://docs.aws.amazon.com/cloudtrail/)

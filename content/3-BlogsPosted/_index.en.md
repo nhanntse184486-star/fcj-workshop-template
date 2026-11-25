@@ -1,22 +1,22 @@
 ---
 title: "Blogs Posted"
-date: 2024-01-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+The following three technical articles focus on secure releases, data storage and task automation on AWS.
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
+### [Blog 1 - CI/CD on AWS: Integrating DevSecOps Before Production Deployment](3.1-blog1/)
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+Explore a release pipeline with security gates, from source and dependency checks to staging tests and deployment approval.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### [Blog 2 - Amazon S3: Storing, Protecting and Delivering Data on AWS](3.2-blog2/)
 
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+Understand object storage, storage class selection, access control and website delivery through CloudFront using a private bucket.
+
+### [Blog 3 - Amazon EventBridge Scheduler: Automating Recurring Tasks with AWS Lambda](3.3-blog3/)
+
+Explore three scheduling patterns, execution permissions, retries and DLQs, with a guide to invoking Lambda every 30 minutes.
+
+Layout reference: [Sample workshop report](https://miphphuong-eng.github.io/NguyenMinhPhuong_Workshop/vi/3-blogsposted/).

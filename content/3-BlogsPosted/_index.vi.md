@@ -1,22 +1,22 @@
 ---
 title: "Các bài blogs đã đăng"
-date: 2024-01-01
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Ba bài viết kỹ thuật dưới đây tập trung vào quy trình phát hành an toàn, lưu trữ dữ liệu và tự động hóa tác vụ trên AWS.
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
+### [Blog 1 - CI/CD trên AWS: Tích hợp DevSecOps trước khi triển khai Production](3.1-blog1/)
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Khám phá cách thiết kế pipeline phát hành có các cổng kiểm soát bảo mật, từ kiểm tra mã nguồn và thư viện đến kiểm thử trên staging và phê duyệt triển khai.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 2 - Amazon S3: Lưu trữ, bảo vệ và phân phối dữ liệu trên AWS](3.2-blog2/)
 
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Tìm hiểu mô hình object storage, lựa chọn lớp lưu trữ theo nhu cầu, kiểm soát truy cập và phân phối website qua CloudFront với bucket private.
+
+### [Blog 3 - Amazon EventBridge Scheduler: Tự động hóa tác vụ định kỳ với AWS Lambda](3.3-blog3/)
+
+Tìm hiểu ba kiểu lập lịch, cấu hình quyền thực thi, retry và DLQ, kèm hướng dẫn tạo lịch gọi Lambda mỗi 30 phút.
+
+Tham khảo bố cục: [Báo cáo workshop mẫu](https://miphphuong-eng.github.io/NguyenMinhPhuong_Workshop/vi/3-blogsposted/).
