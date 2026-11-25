@@ -1,6 +1,6 @@
 ---
 title: "Chia sẻ, đóng góp ý kiến"
-date: 2026-12-14
+date: 2026-11-25
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
