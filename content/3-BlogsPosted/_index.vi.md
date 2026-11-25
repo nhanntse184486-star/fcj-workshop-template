@@ -1,22 +1,18 @@
 ---
-title: "Các bài blogs đã đăng"
+title: "Các bài viết Blog"
 weight: 3
-chapter: false
-pre: " <b> 3. </b> "
+chapter: true
+pre: "<b> 3. </b>"
 ---
 
-Ba bài viết kỹ thuật dưới đây tập trung vào quy trình phát hành an toàn, lưu trữ dữ liệu và tự động hóa tác vụ trên AWS.
+### [Blog 1 - Xây dựng CI/CD Pipeline trên AWS: Tích hợp DevSecOps để kiểm tra bảo mật trước khi triển khai Production](3.1-Blog1/)
 
-### [Blog 1 - CI/CD trên AWS: Tích hợp DevSecOps trước khi triển khai Production](3.1-blog1/)
+Bài viết trình bày cách xây dựng CI/CD Pipeline trên AWS kết hợp với DevSecOps nhằm tăng cường bảo mật cho ứng dụng trước khi triển khai lên môi trường Production. Nội dung giới thiệu các dịch vụ AWS chính được sử dụng, mô tả các giai đoạn kiểm thử bảo mật bao gồm SCA, SAST, DAST và IAST. Đồng thời, bài viết làm rõ vai trò của việc tự động hóa kiểm tra bảo mật, giám sát hệ thống và phê duyệt thủ công trong việc phát hiện sớm các lỗ hổng, giúp quá trình phát hành phần mềm an toàn hơn.
 
-Khám phá cách thiết kế pipeline phát hành có các cổng kiểm soát bảo mật, từ kiểm tra mã nguồn và thư viện đến kiểm thử trên staging và phê duyệt triển khai.
+### [Blog 2 - Amazon S3: Giải pháp lưu trữ và bảo mật dữ liệu trên AWS](3.2-Blog2/)
 
-### [Blog 2 - Amazon S3: Lưu trữ, bảo vệ và phân phối dữ liệu trên AWS](3.2-blog2/)
+Bài viết giới thiệu Amazon S3, dịch vụ lưu trữ đối tượng được cung cấp bởi AWS. Nội dung tập trung vào các khái niệm cơ bản như Bucket, Object và Object Key, cùng với tám lớp lưu trữ S3 và những trường hợp sử dụng phổ biến. Bên cạnh đó, bài viết còn trình bày các tính năng quan trọng như Versioning, Lifecycle Rules, Encryption và Block Public Access, cũng như cách Amazon S3 hỗ trợ lưu trữ và quản lý dữ liệu trong kiến trúc Data & Machine Learning.
 
-Tìm hiểu mô hình object storage, lựa chọn lớp lưu trữ theo nhu cầu, kiểm soát truy cập và phân phối website qua CloudFront với bucket private.
+### [Blog 3 - Amazon EventBridge Scheduler: Một dịch vụ nhỏ nhưng có võ khi xây dựng Project trên AWS](3.3-Blog3/)
 
-### [Blog 3 - Amazon EventBridge Scheduler: Tự động hóa tác vụ định kỳ với AWS Lambda](3.3-blog3/)
-
-Tìm hiểu ba kiểu lập lịch, cấu hình quyền thực thi, retry và DLQ, kèm hướng dẫn tạo lịch gọi Lambda mỗi 30 phút.
-
-Tham khảo bố cục: [Báo cáo workshop mẫu](https://miphphuong-eng.github.io/NguyenMinhPhuong_Workshop/vi/3-blogsposted/).
+Bài viết giới thiệu Amazon EventBridge Scheduler, một dịch vụ lập lịch Serverless cho phép ứng dụng tự động kích hoạt các dịch vụ AWS tại thời điểm xác định hoặc theo chu kỳ. Nội dung trình bày các kiểu lập lịch One-time, Rate-based và Cron-based, cùng những tính năng hữu ích như Retry Policy, Dead-letter Queue (DLQ), Flexible Time Window và hỗ trợ múi giờ. Bài viết cũng hướng dẫn cách sử dụng EventBridge Scheduler để tự động gọi AWS Lambda mỗi 30 phút, giúp giảm công việc quản lý máy chủ và đơn giản hóa quá trình tự động hóa trong các project trên AWS.
