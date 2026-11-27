@@ -1,126 +1,86 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Event 1 – Fireside Chat"
+date: 2026-10-02
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+draft: false
+pre: "<b> 4.1. </b>"
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Fireside Chat with Dr. Werner Vogels
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+## 1. Event Information
 
-### Event Objectives
+| Information | Details |
+|---|---|
+| Event name | Fireside Chat with Dr. Werner Vogels |
+| Date | Friday, October 2, 2026 |
+| Time | 8:30 AM – 12:00 PM (GMT+7) |
+| Venue | Bitexco Financial Tower, Ho Chi Minh City, Vietnam |
+| Speaker | Dr. Werner Vogels – CTO of Amazon |
+| Host | Huỳnh Hoàng Long |
+| Format | Conversation, Q&A and networking |
+| Role | Attendee |
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+## 2. Event Objectives
 
-### Speakers
+The meeting offered students and the engineering community an opportunity to explore industry perspectives on Cloud Computing and AI. Its focus connected software design, the operation of large-scale systems and the ability of engineering teams to innovate.
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+## 3. Main Activities and Highlights
 
-### Key Highlights
+### 3.1. Cloud Computing and Artificial Intelligence
 
-#### Identifying the drawbacks of legacy application architecture
+Cloud infrastructure provides flexible resources for developing digital services, while AI creates new opportunities for automation and practical problem-solving.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+### 3.2. Building Systems at Global Scale
 
-#### Transitioning to modern application architecture – Microservices
+Distributed architectures introduce requirements for scalability, reliability and availability. These considerations need to be evaluated alongside the needs of the application.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+### 3.3. Innovation and Career Development
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+The program addressed problem-solving, adaptation to emerging technologies and the importance of continuous learning in an engineering career.
 
-#### Domain-Driven Design (DDD)
+### 3.4. Q&A and Community Networking
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+The Q&A and networking sessions provided opportunities for exchange among learners, developers and technology professionals.
 
-#### Event-Driven Architecture
+## 4. Knowledge and Lessons Learned
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+- System design should balance performance, stability and maintainability rather than focusing only on functionality.
+- AI adoption should address specific user needs.
+- Architectural knowledge and analytical skills complement programming expertise.
 
-#### Compute Evolution
+## 5. Relevance to the Internship Project
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+For the **Driver Drowsiness & Distraction Detection** project, these lessons can be applied in the following ways:
 
-#### Amazon Q Developer
+| Lesson | Project application |
+|---|---|
+| Separation of responsibilities | Edge AI processes images on the device; AWS receives event metadata. |
+| Reliability | Local buffering, retries and event identifiers help reduce data loss and duplicate records. |
+| Scalability | API Gateway, Lambda and DynamoDB are separated into components with distinct responsibilities. |
+| Security and privacy | Video remains on the device, IAM permissions are restricted, and Cognito controls dashboard access. |
+| Operational visibility | CloudWatch provides monitoring for errors and system metrics. |
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+## 6. Conclusion
 
-### Key Takeaways
+The event provided a broader perspective on careers in Cloud and AI engineering. Its practical value for the internship lies in connecting architectural decisions with product quality and objectives.
 
-#### Design Mindset
+## 7. Event Photos
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+![Event venue and speaker session](/fcj-workshop-template/images/4-EventParticipated/Event1/speaker-session.png)
 
-#### Technical Architecture
+*Figure 1. The setting of the sharing session.*
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+![Check-in photo with fellow attendees](/fcj-workshop-template/images/4-EventParticipated/Event1/check-in.png)
 
-#### Modernization Strategy
+*Figure 2. Check-in photo with fellow attendees at the venue.*
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+![Group photo at the event](/fcj-workshop-template/images/4-EventParticipated/Event1/group-photo.png)
 
-### Applying to Work
+*Figure 3. Group photograph of the community attending the Fireside Chat.*
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+## References
 
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+- [Nguyen Minh Phuong's event report](https://raw.githubusercontent.com/miphphuong-eng/NguyenMinhPhuong_Workshop/main/content/4-EventParticipated/4.1-Event1/_index.md)
+- [Duy Thien's event report](https://duythien1303.github.io/fcj-workshop-template/4-eventparticipated/4.3-event3/)
