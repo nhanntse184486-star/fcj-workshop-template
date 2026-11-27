@@ -1,125 +1,122 @@
 ---
-title: "Event 2"
-date: 2024-01-01
-weight: 1
+title: "Sự kiện 2 – Cloud Mastery 1"
+date: 2026-11-14
+weight: 2
 chapter: false
-pre: " <b> 4.2. </b> "
+draft: false
+pre: "<b> 4.2. </b>"
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+# Cloud Mastery 1
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+## 1. Thông tin sự kiện
 
-### Mục Đích Của Sự Kiện
+| Thông tin | Chi tiết |
+|---|---|
+| Tên sự kiện | Cloud Mastery 1 |
+| Ngày tổ chức | Thứ Bảy, 14/11/2026 |
+| Địa điểm | Tầng 26, Tòa nhà Bitexco, TP. Hồ Chí Minh, Việt Nam |
+| Hình thức | Chia sẻ kiến thức trực tiếp |
+| Vai trò | Người tham dự |
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+## 2. Mục tiêu sự kiện
 
-### Danh Sách Diễn Giả
+Cloud Mastery 1 mang đến cơ hội tiếp cận kiến thức điện toán đám mây thông qua các ví dụ thực tế về phát triển ứng dụng AI. Chương trình giúp sinh viên hiểu cách lựa chọn dịch vụ AWS, cân nhắc các yêu cầu vận hành và nhận diện những yếu tố tạo nên một hệ thống đáng tin cậy. Đây cũng là dịp kết nối với những người cùng quan tâm đến Cloud Computing và AI.
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+## 3. Nội dung và hoạt động nổi bật
 
-### Nội Dung Nổi Bật
+### 3.1. Vai trò của Cloud trong ứng dụng AI
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+Phần trình bày **The Role of Cloud** sử dụng ví dụ chuỗi nhà hàng để minh họa cách hạ tầng đám mây hỗ trợ ứng dụng AI. Bốn khía cạnh được nhấn mạnh trong slide gồm:
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+| Khía cạnh | Ý nghĩa |
+|---|---|
+| Security – Bảo mật | Bảo vệ dữ liệu, kiểm soát quyền truy cập và giảm rủi ro trong quá trình vận hành. |
+| Scalability – Khả năng mở rộng | Điều chỉnh tài nguyên theo nhu cầu xử lý và lưu lượng thực tế. |
+| Reliability – Độ tin cậy | Hướng đến khả năng duy trì hoạt động khi một thành phần gặp sự cố. |
+| Cost – Chi phí | Sử dụng tài nguyên theo nhu cầu, hạn chế lãng phí và theo dõi chi phí. |
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+Các yếu tố này cần được xem xét đồng thời khi xây dựng ứng dụng, thay vì chỉ chú trọng vào độ chính xác của mô hình AI.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+### 3.2. AWS Toolbox – Các dịch vụ hỗ trợ phát triển AI
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+| Dịch vụ | Vai trò được giới thiệu |
+|---|---|
+| AWS Lambda | Thực thi mã theo sự kiện mà không cần tự quản lý máy chủ. |
+| Amazon Bedrock | Truy cập các foundation model thông qua API để xây dựng ứng dụng AI. |
+| Amazon Bedrock AgentCore | Cung cấp các năng lực vận hành AI agent, bao gồm môi trường thực thi, bộ nhớ và quản lý danh tính. |
 
-#### Domain-Driven Design (DDD)
+Cách phân chia vai trò giữa các dịch vụ cho thấy một ứng dụng AI có thể kết hợp nhiều thành phần chuyên biệt, thay vì đặt toàn bộ trách nhiệm xử lý vào một mô hình duy nhất.
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+### 3.3. Use AI Wisely – Sử dụng AI hợp lý
 
-#### Event-Driven Architecture
+Phần chia sẻ sử dụng hình ảnh bếp trưởng điều phối các bộ phận trong nhà hàng để mô tả kiến trúc AI. Một mô hình lớn có thể đảm nhiệm việc điều phối, trong khi các mô hình nhỏ hơn thực hiện những nhiệm vụ chuyên biệt. Hai nguyên tắc nổi bật là lựa chọn mô hình phù hợp với từng nhiệm vụ và tận dụng bộ nhớ đệm đối với những câu hỏi lặp lại khi điều kiện cho phép.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+Cách tiếp cận này giúp cân nhắc chất lượng đầu ra, độ trễ và chi phí thay vì mặc định sử dụng mô hình lớn nhất cho mọi yêu cầu.
 
-#### Compute Evolution
+### 3.4. Tình huống thực tế: Cox Automotive
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+Ví dụ Cox Automotive đặt ra bài toán xây dựng giải pháp AI tự động hóa mà người dùng có thể tin tưởng. Slide giới thiệu hướng chuẩn hóa nền tảng trước khi mở rộng triển khai các agent:
 
-#### Amazon Q Developer
+| Thành phần | Vai trò trong tình huống được trình bày |
+|---|---|
+| AgentCore Runtime | Môi trường thực thi thống nhất, hỗ trợ triển khai, giám sát và xử lý lỗi. |
+| AgentCore Identity | Phân quyền chi tiết theo vai trò của từng agent. |
+| Amazon Bedrock Guardrails | Kiểm soát đầu vào và đầu ra nhằm giảm rủi ro từ nội dung không phù hợp. |
+| AgentCore Memory | Duy trì ngữ cảnh qua các phiên tương tác. |
+| AgentCore Observability | Ghi nhận tương tác và hỗ trợ phân tích lỗi trong quy trình nhiều bước. |
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Điểm đáng chú ý là AI agent không chỉ cần năng lực xử lý thông tin mà còn cần nền tảng quản trị, bảo mật và giám sát phù hợp.
 
-### Những Gì Học Được
+## 4. Kiến thức và bài học rút ra
 
-#### Tư Duy Thiết Kế
+- Thiết kế ứng dụng AI cần xuất phát từ yêu cầu thực tế của người dùng và điều kiện vận hành.
+- Bảo mật, khả năng mở rộng, độ tin cậy và chi phí là những tiêu chí cần cân bằng khi lựa chọn kiến trúc Cloud.
+- Lựa chọn mô hình theo độ phức tạp của nhiệm vụ giúp tránh sử dụng tài nguyên không cần thiết.
+- Phân quyền, kiểm soát dữ liệu và khả năng quan sát hệ thống có vai trò quan trọng trong việc xây dựng ứng dụng AI đáng tin cậy.
+- Những ví dụ thực tế tại sự kiện giúp kết nối kiến thức lý thuyết với các quyết định thiết kế phần mềm.
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+## 5. Liên hệ với dự án thực tập
 
-#### Kiến Trúc Kỹ Thuật
+Đối với đề tài **Driver Drowsiness & Distraction Detection**, nội dung sự kiện gợi mở các hướng vận dụng sau:
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+| Bài học | Liên hệ với dự án |
+|---|---|
+| Lựa chọn phương thức xử lý phù hợp | Ưu tiên xử lý hình ảnh tại thiết bị bằng OpenCV và MediaPipe; chỉ truyền metadata sự kiện cần thiết lên Cloud. |
+| Kiến trúc theo sự kiện | Sử dụng API Gateway và Lambda để tiếp nhận, xử lý các sự kiện phát hiện buồn ngủ hoặc mất tập trung. |
+| Độ tin cậy | Chú trọng cơ chế bộ đệm, retry và định danh sự kiện để hạn chế mất hoặc ghi trùng dữ liệu. |
+| Bảo mật | Giới hạn quyền IAM, xác thực người dùng Dashboard bằng Cognito và bảo vệ dữ liệu hình ảnh cá nhân. |
+| Chi phí và giám sát | Ưu tiên dịch vụ serverless phù hợp với nhu cầu, theo dõi lỗi và chỉ số vận hành bằng CloudWatch. |
 
-#### Chiến Lược Hiện Đại Hóa
+Các nội dung về Bedrock và AgentCore mở rộng góc nhìn về phát triển AI trên AWS, nhưng không phải là thành phần bắt buộc của hệ thống phát hiện buồn ngủ hiện tại.
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+## 6. Tổng kết
 
-### Ứng Dụng Vào Công Việc
+Cloud Mastery 1 là cơ hội để tôi tiếp cận cách AWS hỗ trợ xây dựng và vận hành ứng dụng AI từ góc nhìn kiến trúc. Việc tham dự cùng bạn học giúp tăng cơ hội trao đổi về công nghệ và định hướng phát triển kỹ năng. Bài học nổi bật của sự kiện là lựa chọn công nghệ theo mục tiêu của hệ thống, kết hợp hiệu quả xử lý với bảo mật, độ tin cậy và chi phí vận hành.
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+## 7. Hình ảnh tham gia sự kiện
 
-### Trải nghiệm trong event
+![Ảnh check-in cùng bạn tại Cloud Mastery 1](/fcj-workshop-template/images/4-EventParticipated/Event2/check-in.png)
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+*Hình 1. Ảnh check-in cùng bạn tại Cloud Mastery 1.*
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+![Phần trình bày The Role of Cloud: bảo mật, khả năng mở rộng, độ tin cậy và chi phí](/fcj-workshop-template/images/4-EventParticipated/Event2/role-of-cloud.png)
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+*Hình 2. Phần trình bày The Role of Cloud: bảo mật, khả năng mở rộng, độ tin cậy và chi phí.*
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+![Slide Use AI Wisely: lựa chọn mô hình phù hợp với nhiệm vụ](/fcj-workshop-template/images/4-EventParticipated/Event2/use-ai-wisely.png)
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+*Hình 3. Slide Use AI Wisely: lựa chọn mô hình phù hợp với nhiệm vụ.*
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+![Slide AWS Toolbox: Lambda, Bedrock và AgentCore](/fcj-workshop-template/images/4-EventParticipated/Event2/aws-toolbox.png)
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+*Hình 4. Slide AWS Toolbox: Lambda, Bedrock và AgentCore.*
+
+![Tình huống thực tế Cox Automotive và bài toán xây dựng AI đáng tin cậy](/fcj-workshop-template/images/4-EventParticipated/Event2/cox-automotive.png)
+
+*Hình 5. Tình huống thực tế Cox Automotive và bài toán xây dựng AI đáng tin cậy.*
+
+![Cách Cox Automotive chuẩn hóa nền tảng vận hành AI agent với AgentCore](/fcj-workshop-template/images/4-EventParticipated/Event2/agentcore.png)
+
+*Hình 6. Cách Cox Automotive chuẩn hóa nền tảng vận hành AI agent với AgentCore.*
+
