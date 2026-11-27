@@ -1,46 +1,50 @@
 ---
-title: "Các events đã tham gia"
-date: 2024-01-01
+title: "Các sự kiện đã tham gia"
+date: 2026-11-25
 weight: 4
 chapter: false
-pre: " <b> 4. </b> "
+draft: false
+pre: "<b> 4. </b>"
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+## Tổng quan
 
-> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
-> 
-> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
-> * Tên sự kiện
-> * Thời gian tổ chức
-> * Địa điểm (nếu có)
-> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
-> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
-> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
-> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
+Trong quá trình thực tập tại chương trình First Cloud AI Journey, em đã tham gia ba sự kiện công nghệ xoay quanh kiến trúc điện toán đám mây, trí tuệ nhân tạo và phát triển phần mềm hiện đại. Các hoạt động này bổ trợ cho đề tài thực tập, đồng thời tạo cơ hội tiếp cận những phương pháp kỹ thuật thực tế và học hỏi từ cộng đồng AWS.
 
+### [Event 1 – Fireside Chat with Dr. Werner Vogels](4.1-event1/)
 
-Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là nhứng món quà và những khoảnh khắc rất tuyệt vời.
+**Thời gian:** 08:30–12:00, ngày 02/10/2026 (GMT+7)  
+**Địa điểm:** Tòa nhà Bitexco Financial Tower, TP. Hồ Chí Minh  
+**Vai trò:** Người tham dự
 
-### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+Buổi giao lưu kết nối công nghệ Cloud và AI với thiết kế hệ thống phân tán, độ tin cậy, đổi mới sáng tạo và phát triển nghề nghiệp. Bài học nổi bật là cần thiết kế phần mềm dựa trên cả yêu cầu kỹ thuật lẫn nhu cầu vận hành lâu dài.
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+[Xem chi tiết Event 1](4.1-event1/)
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+---
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+### [Event 2 – Cloud Mastery 1](4.2-event2/)
 
+**Ngày tổ chức:** 14/11/2026  
+**Địa điểm:** Tầng 26, tòa nhà Bitexco Financial Tower, TP. Hồ Chí Minh  
+**Vai trò:** Người tham dự
 
+Sự kiện phân tích bốn yếu tố bảo mật, khả năng mở rộng, độ tin cậy và chi phí trong ứng dụng AI trên Cloud. Chương trình giới thiệu AWS Lambda, Amazon Bedrock, AgentCore và cách lựa chọn mô hình phù hợp thông qua trường hợp thực tế Cox Automotive.
 
-### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+[Xem chi tiết Event 2](4.2-event2/)
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+---
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+### [Event 3 – AWS Cloud and AI Day Hanoi 2026 – HCMC Watch Party](4.3-event3/)
 
-&emsp;**Vai trò trong sự kiện:** Người tham dự 
+**Thời gian:** 09:00, ngày 29/09/2026 (GMT+7)  
+**Địa điểm:** Văn phòng AWS, tòa nhà Bitexco Financial Tower, TP. Hồ Chí Minh  
+**Vai trò:** Người tham dự
 
+Chương trình Watch Party kết nối cộng đồng tại TP. Hồ Chí Minh với sự kiện chính tại Hà Nội, tập trung vào công nghệ Cloud, Generative AI, Agentic AI và phương pháp phát triển ứng dụng hiện đại.
+
+[Xem chi tiết Event 3](4.3-event3/)
+
+## Tổng kết
+
+Ba sự kiện giúp em củng cố nhận thức về việc kết hợp kiến thức AI với kiến trúc Cloud phù hợp, sử dụng tài nguyên hiệu quả và tinh thần học tập liên tục. Các chủ đề có liên hệ với đề tài Driver Drowsiness & Distraction Detection, đặc biệt là việc tách xử lý AI tại thiết bị khỏi dịch vụ Cloud, bảo vệ dữ liệu và bảo đảm độ tin cậy khi vận hành.
