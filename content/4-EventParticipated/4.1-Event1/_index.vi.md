@@ -79,8 +79,3 @@ Sự kiện là dịp để mở rộng góc nhìn về nghề kỹ sư Cloud v�
 ![Ảnh tập thể tại sự kiện](/fcj-workshop-template/images/4-EventParticipated/Event1/group-photo.png)
 
 *Hình 3. Ảnh tập thể của cộng đồng tham dự Fireside Chat.*
-
-## Tài liệu tham khảo
-
-- [Báo cáo sự kiện của Nguyễn Minh Phương](https://raw.githubusercontent.com/miphphuong-eng/NguyenMinhPhuong_Workshop/main/content/4-EventParticipated/4.1-Event1/_index.vi.md)
-- [Báo cáo sự kiện của Duy Thiện](https://duythien1303.github.io/fcj-workshop-template/4-eventparticipated/4.3-event3/)

@@ -79,8 +79,3 @@ The event provided a broader perspective on careers in Cloud and AI engineering.
 ![Group photo at the event](/fcj-workshop-template/images/4-EventParticipated/Event1/group-photo.png)
 
 *Figure 3. Group photograph of the community attending the Fireside Chat.*
-
-## References
-
-- [Nguyen Minh Phuong's event report](https://raw.githubusercontent.com/miphphuong-eng/NguyenMinhPhuong_Workshop/main/content/4-EventParticipated/4.1-Event1/_index.md)
-- [Duy Thien's event report](https://duythien1303.github.io/fcj-workshop-template/4-eventparticipated/4.3-event3/)
